@@ -1,9 +1,26 @@
+
+
 #navbar{
     background-color: #d2d7f5;
-    padding: 10px 0px;
+    padding: 5px 0px;
     position: fixed;
-    top: 0;
     width: 100%;
+    top:47px;
+}
+
+.logo-image{
+    margin: 0;
+    width:100%;
+    position: fixed;
+    background-color: #b6c0f8;
+    top: 0;
+    font-family: monospace;
+    
+}
+
+#there
+{
+    padding-bottom: 20px;
 }
 
 body
@@ -11,7 +28,7 @@ body
     margin: 0;
     padding: 0;
     background: rgb(205,252,238);
-    background: radial-gradient(circle, rgba(205,252,238,1) 0%, rgba(124,174,233,1) 100%);
+    background: radial-gradient(circle, rgb(159, 196, 185) 0%, rgba(124,174,233,1) 100%);
 }
 div{
     margin:10% 20% ;
@@ -25,7 +42,7 @@ div{
 
 
 .nav-link{
-    padding: 50px 16px;
+    padding: 40px 16px;
     display: inline;
     text-align: center
     
@@ -61,8 +78,19 @@ header{
 }
 .main-link{
     background-color: #993f3f;
-    padding: 25px 16px;
+    padding: 20px 16px;
     text-decoration: none;
     display: inline;
     text-align: center
+}
+.smaller{
+    font-size:75%;
+}
+
+.actor-img{
+    height: 100px;
+}
+.actor-gif{
+    float: right;
+    height:200px;
 }
